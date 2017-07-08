@@ -1,0 +1,83 @@
+html, body {
+  height: 100%;
+  margin: 0;
+  padding: 0;
+  border: 0;
+}
+
+html {
+  background: url(typewriter.jpg) no-repeat center center fixed;
+  font-size: 16px;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
+blockquote {
+  background-color: silver;
+  border-radius: 1em;
+  color: black;
+  max-width: 33em;
+  padding: 1em;
+  margin: 1em;
+}
+
+cite {
+  color: dimgray;
+}
+
+a:link, a:visited, a:hover, a:active {
+  color: white;
+}
+
+.btn {
+  background-color: silver;
+  font-size: 1rem;
+  padding: 0.75rem 1.5rem 0.75rem 1.5rem;
+  border: 2px;
+  border-radius: 0.125em;
+  text-align: center;
+  white-space: nowrap;
+  vertical-align: middle;
+  text-decoration: none;
+}
+
+#attribution {
+  color: white;
+  height: 1em;
+  margin: auto;
+  text-align: center;
+}
+
+#content {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  min-height: calc(100% - 4em); /* Subtract attribution footer height */
+}
+
+#title {
+  color: silver;
+}
+
+#quote-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  min-height: 100%;
+}
+
+#quote-item {
+  border-radius: 1em;
+  color: black;
+  max-width: 33em;
+  height: 12rem;  /* Fixed height so layout stays constant */
+}
+
+#tweet-button {
+  background-color: #1B95E0;
+  color:white;
+}
