@@ -1,0 +1,32 @@
+{
+  "name": "quote-machine",
+  "version": "1.0.0",
+  "description": "Quote machine project for freeCodeCamp.",
+  "main": "webpack.config.js",
+  "scripts": {
+    "build": "webpack",
+    "start": "webpack --watch",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Apokryphos/quote-machine.git"
+  },
+  "author": "Tony Slavotinek",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Apokryphos/quote-machine/issues"
+  },
+  "homepage": "https://github.com/Apokryphos/quote-machine#readme",
+  "devDependencies": {
+    "babel-core": "^6.26.0",
+    "babel-loader": "^7.1.2",
+    "babel-preset-env": "^1.6.0",
+    "clean-webpack-plugin": "^0.1.17",
+    "copy-webpack-plugin": "^4.1.0",
+    "extract-text-webpack-plugin": "^3.0.1",
+    "imagemin-mozjpeg": "^6.0.0",
+    "imagemin-webpack-plugin": "^1.5.2",
+    "webpack": "^3.6.0"
+  }
+}
